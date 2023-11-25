@@ -1,0 +1,99 @@
+.body{
+  background-color:#ccc; 
+}
+.container{
+  display: grid;
+  grid-template-columns: 200px 1fr 1400px;
+  grid-template-rows: 550px 1fr auto;  
+  background-color: white;
+}
+.logo{
+  grid-column: 1/4;
+}
+
+.menu{
+
+}
+.content{
+  grid-column: 2/4;
+  border-radius: 10px;
+  border: 2px solid gray;
+  margin-left: 30px;
+  margin-right: 90px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px 1px black;
+}
+.hello{
+
+}
+.footer{
+  grid-column: 1/4;
+  background-color: rgb(138, 179, 85);
+  margin-right: 20px;
+}
+.menu-item{
+  background-color: azure;
+  height: 30px;
+  border:solid grey 2px;
+  margin: 20px auto 0;
+  width: 80%;
+  box-sizing: border-box;
+  padding-top: 2px;
+  font-size: 1rem;
+  text-align: center;
+}
+.karta{
+  margin-top: 950px;
+}
+#main_title{
+  background-color: chartreuse;
+}
+/* Меню, ссылки*/
+:root {
+  --link-color: black;
+}
+a{
+  color: var(--link-color);
+}
+.link-1 {
+  box-shadow: inset 0 0 var(--link-color);
+  transition: box-shadow .5s, color .3s;
+  padding: 3px;
+  margin: -3px;
+  display:block;
+}
+.link-1:hover {
+  color: greenyellow;
+  box-shadow: inset 200px 0 var(--link-color);
+  text-decoration: none;
+font-size: 20px;
+
+}
+
+.link-2 {
+  box-shadow: inset 0 0 var(--link-color);
+    transition: box-shadow .3s, color .3s;
+    padding: 3px;
+    margin: -3px;
+}
+
+.link-2:hover {
+  color: yellow;
+  box-shadow: inset 100px 0 var(--link-color);
+  text-decoration: none;
+font-size:25px;
+}
+#main_title{
+  background-color: chartreuse;
+}
+
+
+/*Oxran*/
+li {
+  color:blue;
+}
+li span {
+  color:black;
+}
