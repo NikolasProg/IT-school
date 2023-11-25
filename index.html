@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IT-школа</title>
+		<link rel="stylesheet" href="css/1.css">
+		<link rel="icon" type="imge/x-icon" href="images/iconka.png">
+        <style>
+            .picture {
+             transition: 1s; /* Время эффекта */
+            }
+            .picture:hover {
+             transform: scale(1.2); /* Увеличиваем масштаб */
+            }
+           </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="logo"><center><img src="images/Header.png" alt="Шапка"/></center></div>
+            <div class="menu">
+                <div class="logotip"><br><center><img src="images/Logo.jpg" alt="Логотип"/></center></div>
+                <p><h3 align="center">Меню:</h3></p>
+                <div class="menu-item"><a href="index.html" title="index" class="link-1">Главня</a></div>
+                <div class="menu-item"><a href="oge/oge.html" title="oxran" class="link-1">ОГЭ</a></div>
+                <div class="menu-item"><a href="ege/ege.html" title="pozar" class="link-1">ЕГЭ</a></div>
+                <div class="menu-item"><a href="onas/onas.html" title="umnhome" class="link-1">О нас</a></div>
+            </div>
+            <div class="content"><table>
+                <tr>
+                    <th id="main_title" colspan="3"><h1>Курсы по подготовке к ОГЭ и ЕГЭ</h1></th>
+                </tr>
+                <tr>
+                    <td class="small_card">
+                        <center><img src="images/oge.jpg" alt="oxran" class="picture"></center>
+                        <br><center><small>Подготовка к ОГЭ</small></center>
+                        <center><h2>ОГЭ</h2></center>
+                        <center><p>Программа предназначена для <b>5-9 классов</b> с углубленным изучением программирования (профильный уровень).</p></center>
+                        <center><a href="oge/oge.html"><img src="images/Button.jpg" class="picture"></a>
+                        <a href="oge/oge.html" title="Ghibli" class="link-2">Перейти</a></center>
+                    </td>
+                    <td class="small_card">
+                        <center><img src="images/ege.jpg" alt="pozar" class="picture"></center>
+                        <br><center><small>Подготовка к ЕГЭ</small></center>
+                        <center><h2>ЕГЭ</h2></center>
+                        <center><p>Программа предназначена для <b>10-11 классов</b> с углубленным изучением программирования (профильный уровень).</p></center>
+                        <center><a href="ege/ege.html"><img src="images/Button.jpg" class="picture"></a>
+                        <a href="ege/ege.html" title="Quattroporte" class="link-2">Перейти</a></center>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="big_card" colspan="3">				
+                        <br><img src="images/Form.jpg" alt="Форма" class="picture">
+                        <form action="/Home/Order" method="POST">
+                            <fieldset>
+                                <legend>Просто оставь заявку и запишиcь на бесплатное занятие</legend>
+                                <input type="text" name="Name" placeholder="Введите ваше имя" required/><br/>
+                                <input type="tel" name="tel" id="tel" placeholder="+7-(xxx)-(xxx)-(xxx)"><br/>
+                                <select name="Car">
+                                    <option value="oxran">Охранная сигнализация</option>
+                                    <option value="pozar">Пожарная сигнализация</option>
+                                    <option value="umnhome">Устройство "Умный дом"</option>
+                                </select><br/>
+                                <input type="submit"/>
+                            </fieldset>
+                        </form>
+                    </td>
+                </tr>
+            </table>
+         <p> Данный курс является первой ступенью в <u>полной подготовке</u> к ОГЭ и ЕГЭ по информатике 2024.</p>
+         <p>Пройдя данный курс, вы с нуля изучите всю теоретическую базу необходимую для сдачи ЕГЭ. С нуля научитесь работать в электронных таблицах. Этих знаний вам хватит с большим запасом для сдачи экзамена. Все темы и задания в этом курсе изучаются <b>с нуля</b> до уровня выше ЕГЭ.</p>
+		 <p>Перед вами не бесплатный, урезанный демо-курс, а <b>полноценный курс по изучению всей теории для заданий ОГЭ и ЕГЭ</b>, в которых не используется программирование.</p>
+                <br>
+                <p>Чему вы научитесь:</p>
+                <ul>
+				<li><span>Изучите всю теоретическую базу, необходимую для сдачи ОГЭ и ЕГЭ по информатике</span></li>
+				<li><span>Научитесь работать с электронными таблицами</span></li>
+				<li><span>Научитесь решать одиннадцать заданий – 54 балла на ОГЭ, ЕГЭ</span></li>
+				<li><span>Решите большое количество актуальных задач уровня ОГЭ, ЕГЭ и выше</span></li>
+				</ul>     
+        </div>
+         <div class="footer">
+                <h1>О компании:</h1>
+                <p>Сделано учеником 9-го класса, Чесноковым Николаем.</p>  
+            </div>
+        </div>
+    </body>
+</html>
